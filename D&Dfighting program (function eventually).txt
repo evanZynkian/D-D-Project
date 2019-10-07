@@ -1,0 +1,25 @@
+// Example program
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    
+    //first attack
+    double fAttack = 20.0;
+    
+    //armor class
+    double aClass = 20.0;
+    
+    //if statement to determine whether or not the strike lands
+    if (fAttack >= aClass) {
+        cout << "Hit";
+    }
+    
+    else {
+        cout << "Miss!";
+    }
+
+}
